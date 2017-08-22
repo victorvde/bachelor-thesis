@@ -1,0 +1,5 @@
+def main() {
+    theta := gauss(0, 1);
+    d := cauchy(theta, 1);
+    return d;
+}

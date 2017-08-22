@@ -1,0 +1,14 @@
+def main() {
+    p := uniform(0, 1);
+    a := [0.1, 0.2, 0.3, 0.4];
+    for i in [0..a.length) {
+        left := gauss(0, 1);
+        right := gauss(1, 1);
+        if(flip(p)) {
+            cobserve(right, a[i]);
+        } else {
+            cobserve(left, a[i]);
+        }
+    }
+    return p;
+}
